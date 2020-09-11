@@ -1,0 +1,39 @@
+{
+  "name": "winning-micro-frontend-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tempalte for winning-micro-frontend project",
+  "main": "index.js",
+  "scripts": {
+    "boot": "node scripts/bootstrap.js",
+    "serve": "gulp start",
+    "serve:main": "his-main-service",
+    "build": "gulp release",
+    "release:test": "gulp releaseTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winning-finance/winning-micro-frontend-template.git"
+  },
+  "keywords": [],
+  "author": "qiangfeng@winning.com.cn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winning-finance/winning-micro-frontend-template/issues"
+  },
+  "homepage": "https://github.com/winning-finance/winning-micro-frontend-template#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "del": "^5.1.0",
+    "execa": "^4.0.3",
+    "gulp": "^4.0.2",
+    "koa": "^2.13.0",
+    "koa-proxies": "^0.11.0",
+    "lerna": "^3.15.0"
+  },
+  "dependencies": {
+    "winning-web-his-main": "^0.0.1"
+  }
+}
