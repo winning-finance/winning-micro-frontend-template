@@ -1003,6 +1003,13 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@koa/cors@^3.1.0":
+  version "3.1.0"
+  resolved "http://nexus.winning.com.cn:8081/repository/npm-group/@koa/cors/-/cors-3.1.0.tgz#618bb073438cfdbd3ebd0e648a76e33b84f3a3b2"
+  integrity sha1-YYuwc0OM/b0+vQ5kinbjO4Tzo7I=
+  dependencies:
+    vary "^1.1.2"
+
 "@lerna/add@3.21.0":
   version "3.21.0"
   resolved "http://nexus.winning.com.cn:8081/repository/npm-group/@lerna/add/-/add-3.21.0.tgz#27007bde71cc7b0a2969ab3c2f0ae41578b4577b"
@@ -12807,6 +12814,19 @@ winning-cookie-webpack-plugin@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.winning.com.cn:8081/repository/npm-group/winning-cookie-webpack-plugin/-/winning-cookie-webpack-plugin-1.0.0.tgz#4e358428f3bc8e275f1cb060a241b33b187fc6ad"
   integrity sha512-sgjKz+WHS4L4w1E2+9VEcMUAUNl8iHVhEJ87EUxyYsugzlNL4VetgMIllEghzcoM4z9JBEXc3XfqGgjyB15aOA==
+
+winning-micro-app-service@^0.0.1:
+  version "0.0.1"
+  resolved "http://nexus.winning.com.cn:8081/repository/npm-group/winning-micro-app-service/-/winning-micro-app-service-0.0.1.tgz#1eddd83933fc4543a71778324e9a42fdcc28d80c"
+  integrity sha512-597D9TPUBJk4qQ+BJEWsDeY3vmjF7UMLgQmszphbRkUdntbGbKHQlPa5VLB+7+8w0Pv7Af3G00NFoVynzpH5ig==
+  dependencies:
+    "@koa/cors" "^3.1.0"
+    del "^5.1.0"
+    execa "^4.0.3"
+    gulp "^4.0.2"
+    koa "^2.13.0"
+    koa-proxies "^0.11.0"
+    winning-web-his-main "^0.0.1"
 
 winning-request@1.0.8:
   version "1.0.8"
