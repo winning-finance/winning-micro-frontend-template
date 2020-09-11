@@ -12,9 +12,9 @@ Vue.use(MicroApp, {
   router,
   store,
   render: h => h(App),
-  bootstrap: () => {
-    console.log('哈哈哈')
+  bootstrap: (props) => {
+    console.log('bootstrap')
   },
-  mount: () => { },
-  unmount: () => { }
+  mount: (props) => { },
+  unmount: (props) => { }
 })
