@@ -1,10 +1,9 @@
 const { name } = require('./package')
 const path = require('path')
-const isDev = process.env.NODE_ENV === 'development'
 const resolve = dir => path.join(process.cwd(), '../../', dir)
 
 module.exports = {
-  publicPath: isDev ? '/' : '/fee-management-outp/outpCharge/',
+  publicPath: process.VUE_APP_SYSTEM_BASE_URL,
   productionSourceMap: false,
   devServer: {
     hot: true,

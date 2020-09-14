@@ -22,7 +22,7 @@ const routes = [
 
 export default function router () {
   return new VueRouter({
-    base: process.env.BASE_URL,
+    base: process.env.VUE_APP_SYSTEM_BASE_URL,
     routes
   })
 }
