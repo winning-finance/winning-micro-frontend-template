@@ -1,7 +1,6 @@
 {
   "name": "winning-micro-frontend-template",
   "version": "1.0.0",
-  "private": true,
   "description": "tempalte for winning-micro-frontend project",
   "main": "index.js",
   "scripts": {
