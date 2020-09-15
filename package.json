@@ -4,10 +4,8 @@
   "description": "tempalte for winning-micro-frontend project",
   "main": "index.js",
   "scripts": {
-    "boot": "node scripts/bootstrap.js",
-    "serve": "winning-micro-app-service serve",
-    "build": "winning-micro-app-service build",
-    "release:test": "winning-micro-app-service releasetest"
+    "serve": "wms serve",
+    "build": "wms build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +20,12 @@
   "homepage": "https://github.com/winning-finance/winning-micro-frontend-template#readme",
   "devDependencies": {
     "lerna": "^3.15.0",
-    "winning-micro-app-service":"^0.0.1"
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "winning-micro-app-service": "^0.0.1"
+  },
+  "dependencies": {
+    "winning-web-his-main": "^0.0.1"
   }
 }
