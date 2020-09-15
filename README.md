@@ -64,24 +64,19 @@ module.exports = {
     dist: 'dist',  //生产包存放目录
     packages: 'packages' //子应用父文件夹
   },
-  data: { //当前项目菜单配置
-    applicationList: [ //只写入一个object
+  menu: {
+    appSystemId: '4302708202', //系统id，随意设置即可
+    appSystemName: '门诊费用管理', //系统名称
+    appMenuList: [ //当前系统的菜单（即子应用相关配置）
       {
-        appSystemId: '4302708202', //系统id，随意设置即可
-        appSystemName: '门诊费用管理', //系统名称
-        appMenuList: [ //当前系统的菜单（即子应用相关配置）
-          {
-            name: 'project1', //子应用项目名
-            appMenuId: '4302708264', //子应用id，不能重复
-            appMenuRelativeUri: '/fee-management-outp/project1', //子应用地址
-            appMenuName: '测试页面', //子应用中文名（显示在导航条中的菜单名）
-            appMenuList: [], 
-            devEntry: 'http://localhost:3003' //子应用开发模式下访问地址
-          }
-        ]
+        name: 'project1', //子应用项目名
+        appMenuId: '4302708264', //子应用id，不能重复
+        appMenuRelativeUri: '/fee-management-outp/project1', //子应用地址
+        appMenuName: '测试页面', //子应用中文名（显示在导航条中的菜单名）
+        appMenuList: [], 
+        devEntry: 'http://localhost:3003' //子应用开发模式下访问地址
       }
-    ],
-    currentAppId: '4302708202' //当前系统的id（需与applicationList中的第一个appSystemId对应）
+    ]
   }
 }
 
