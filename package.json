@@ -24,8 +24,5 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "winning-micro-app-service": "^0.0.1"
-  },
-  "dependencies": {
-    "winning-web-his-main": "^0.0.1"
   }
 }
