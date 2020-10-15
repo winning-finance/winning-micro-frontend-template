@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "wms serve",
-    "build": "wms build"
+    "build": "lerna bootstrap --no-ci && wms build"
   },
   "repository": {
     "type": "git",
