@@ -4,8 +4,9 @@
   "description": "tempalte for winning-micro-frontend project",
   "main": "index.js",
   "scripts": {
-    "serve": "wms serve",
-    "build": "lerna bootstrap --no-ci && wms build"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -19,13 +20,23 @@
   },
   "homepage": "https://github.com/winning-finance/winning-micro-frontend-template#readme",
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-service": "^4.5.9",
+    "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "eslint": "^6.7.2",
-    "lerna": "^3.15.0",
-    "winning-micro-app-service": "^0.3.9"
+    "eslint": "^7.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.1.0",
+    "node-sass": "4.13.0",
+    "sass-loader": "^10.1.0",
+    "vue-cli-plugin-his": "0.0.3"
+  },
+  "dependencies": {
+    "@winning/micro-app": "^0.1.4",
+    "his-request": "^0.1.7"
   }
 }
