@@ -1,5 +1,7 @@
 module.exports = {
   vueConfig: { // 所有 vue.config.js 的配置都支持
+    publicPath: '/',
+    watch: true,
     devServer: {
       open: true,
       proxy: { // 配置代理
@@ -31,7 +33,7 @@ module.exports = {
         name: 'welcome',
         appMenuCode: '399203507',
         appMenuId: '106667170654810113',
-        appMenuRelativeUri: '/welcome',
+        appMenuRelativeUri: '/welcome/',
         appMenuName: '欢迎-his-app',
         appMenuList: [],
         appMenuTypeCode: '256053'
