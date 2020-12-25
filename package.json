@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^7.1.0",
     "node-sass": "4.13.0",
     "sass-loader": "^10.1.0",
-    "vue-cli-plugin-his": "0.0.5"
+    "vue-cli-plugin-his": "^0.0.6"
   },
   "dependencies": {
     "@winning/micro-app": "^0.1.4",
