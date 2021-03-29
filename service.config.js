@@ -1,6 +1,5 @@
 module.exports = {
   vueConfig: { // 所有 vue.config.js 的配置都支持
-    publicPath: '/',
     watch: true,
     devServer: {
       open: true,
