@@ -36,7 +36,6 @@
     "node-sass": "^5.0.0",
     "sass-loader": "~10.1.1",
     "vue-cli-plugin-his": "^0.1.10",
-    "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
