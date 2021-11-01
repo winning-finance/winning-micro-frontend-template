@@ -39,7 +39,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
-    "@winning/micro-app": "^0.1.4",
+    "@winning/micro-app": "^1.0.7",
     "core-js": "^3.6.5",
     "vue": "^2.6.12"
   }
