@@ -15,8 +15,8 @@ module.exports = {
     userInfoParams: {
       loginURL: '/base/api/v1/base/user/login',
       userInfoURL: '/base/api/v1/base/user/get_information',
-      username: 'L10044',
-      password: '456'
+      username: '00',
+      password: '1'
     },
     extraCookies: {
       'W-FLOW': 'canary',
