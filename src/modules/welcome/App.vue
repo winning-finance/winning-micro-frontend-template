@@ -8,7 +8,6 @@
         <li><a href="https://winning-finance.github.io/his-doc/config/#build" target="_blank" rel="noopener">配置说明</a></li>
         <li><a href="https://winning-finance.github.io/his-doc/plugins/" target="_blank" rel="noopener">his项目常用插件</a></li>
         <li>快开始吧</li>
-        <li>wo cao wo cao ddd</li>
       </ul>
     </div>
   </div>
