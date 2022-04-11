@@ -5,13 +5,13 @@
 ```
 project/
     ┣━ modules/ 
-    ┃     ┣━ package-1/ 微应用子项目
+    ┃     ┣━ module-1/ 微应用子项目
     ┃     ┃      ┣━ ...
     ┃     ┃      ┗━ main.js
-    ┃     ┣━ package-2/ 微应用子项目
+    ┃     ┣━ module-2/ 微应用子项目
     ┃     ┃      ┣━ ...
     ┃     ┃      ┗━ main.js
-    ┃     ┗━ package-3/
+    ┃     ┗━ module-3/
     ┃            ┣━ ...
     ┃            ┗━ main.js
     ┣━ ...
