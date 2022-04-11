@@ -66,8 +66,6 @@ module.exports = {
         appMenuId: '4302708264', //子应用id，不能重复
         appMenuRelativeUri: '/fee-management-outp/project1', //子应用地址
         appMenuName: '测试页面', //子应用中文名（显示在导航条中的菜单名）
-        appMenuList: [], 
-        devEntry: 'http://localhost:3003' //子应用开发模式下访问地址
       }
     ]
   }
