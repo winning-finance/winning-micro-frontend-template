@@ -11,14 +11,10 @@ module.exports = {
       }
     }
   },
-  cookiePluginOptions: { // 自动登陆，注意不要写死 host
-    userInfoParams: {
-      loginURL: '/base/api/v1/base/user/login',
-      userInfoURL: '/base/api/v1/base/user/get_information',
-      username: '00',
-      password: '1'
-    },
-    extraCookies: {
+  loginPluginOptions: {
+    username: '00', // 账号
+    password: '1', // 密码
+    extraCookies: { // 调试参数
       'W-FLOW': 'canary',
       'W-SEQ': 21,
       'X-DEBUG': 'hybrid'
