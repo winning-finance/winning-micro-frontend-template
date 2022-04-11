@@ -12,6 +12,7 @@ module.exports = {
     }
   },
   loginPluginOptions: {
+    systemId:'153614388663152641',
     username: '00', // 账号
     password: '1', // 密码
     extraCookies: { // 调试参数
