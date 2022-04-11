@@ -4,16 +4,16 @@
 ## 项目结构
 ```
 project/
-    ┣━ packages/ 
+    ┣━ modules/ 
     ┃     ┣━ package-1/ 微应用子项目
     ┃     ┃      ┣━ ...
-    ┃     ┃      ┗━ package.json
+    ┃     ┃      ┗━ main.js
     ┃     ┣━ package-2/ 微应用子项目
     ┃     ┃      ┣━ ...
-    ┃     ┃      ┗━ package.json
+    ┃     ┃      ┗━ main.js
     ┃     ┗━ package-3/
     ┃            ┣━ ...
-    ┃            ┗━ package.json
+    ┃            ┗━ main.js
     ┣━ ...
     ┣━ lerna.json //lerna配置文件
     ┗━ package.json 
@@ -29,11 +29,6 @@ project/
 npm install
 ```
 
-安装所有packages的依赖
-```
-lerna bootstrap
-```
-
 ### 启动开发服务器
 ```
 npm run serve
@@ -43,9 +38,7 @@ npm run serve
 
 ### 新建子项目
 
-```
-wms create vue <projectName>
-```
+暂不支持（支持中...）
 
 ### 构建生产版本
 ```
@@ -60,9 +53,9 @@ npm run build
 
 ```js
 module.exports = {
-  build: {
-    dist: 'dist',  //生产包存放目录
-    packages: 'packages' //子应用父文件夹
+  vueConfig: {},
+  loginPluginOptions: {
+    appSystemId: '153614388663152641' // 基础业务管理系统
   },
   menu: {
     appSystemId: '4302708202', //系统id，随意设置即可
